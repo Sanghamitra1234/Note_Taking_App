@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NoteActivity">
+
+    <EditText
+        android:id="@+id/Note_edName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|textCapCharacters"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/Note_edContent"
+        android:layout_width="match_parent"
+        android:layout_height="338dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="top|start"
+        android:inputType="text|textCapSentences|textAutoCorrect|textAutoComplete|textImeMultiLine"
+        android:maxLines="600"
+        android:paddingLeft="10dp"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/note_savebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:padding="20dp"
+        android:text="save" />
+</LinearLayout>
