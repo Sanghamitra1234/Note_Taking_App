@@ -7,13 +7,10 @@
     android:orientation="vertical"
     tools:context=".userActivity">
 
-    <ListView
-        android:id="@+id/Main_Listview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="10dp"
-        android:animationCache="true">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RecyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
 
-    </ListView>
 
 </LinearLayout>
